@@ -1,0 +1,23 @@
+<main class="w-full min-h-screen bg-slate-900 text-white flex flex-col justify-center align-middle lg:flex-row items-start gap-12 px-4 py-12">
+  <!-- Seção com Card e Carrossel -->
+  <section
+    class="w-full max-w-4xl flex flex-col items-center gap-12"
+    data-aos="fade-up"
+    data-aos-duration="2000"
+  >
+    <!-- Card do Programador -->
+      <app-card></app-card>
+
+    <div class="w-full relative overflow-hidden">
+      <div class="flex space-x-8 animate-slide group">
+        <app-carousel></app-carousel>
+        <app-carousel aria-hidden="true"></app-carousel>
+      </div>
+    </div>
+  </section>
+
+  <!-- Componente Sobre Mim -->
+  <div class="w-full max-w-xl" data-aos="fade-left" data-aos-duration="2000">
+    <app-about></app-about>
+  </div>
+</main>

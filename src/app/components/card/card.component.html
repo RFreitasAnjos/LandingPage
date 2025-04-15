@@ -1,0 +1,39 @@
+<figure 
+  class="group flex flex-col md:flex-row rounded-xl p-6 md:p-8 dark:bg-indigo-700 hover:opacity-95 transition-opacity duration-300"
+  data-aos="fade-up"
+  data-aos-duration="1000"
+>
+  <!-- Imagem com borda -->
+  <img 
+    class="w-24 h-24 md:w-60 md:h-auto rounded-full border-4 border-indigo-300 mx-auto md:mx-0 transition-transform duration-300"
+    [src]="img"
+    alt="Foto de Renan Freitas"
+    width="384"
+    height="512"
+  />
+
+  <!-- Conteúdo -->
+  <div class="pt-6 md:p-8 text-center md:text-left space-y-4 w-full">
+    <blockquote>
+      <p class="text-lg font-medium text-gray-900 dark:text-gray-100">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
+
+    <figcaption class="font-medium">
+      <div class="text-sky-500 dark:text-sky-400">
+        Renan Freitas
+      </div>
+      <div class="text-slate-700 dark:text-slate-500 mb-2">
+        Full stack developer
+      </div>
+
+      <!-- Bounce nos links quando hover no card -->
+      <div class="group-hover:animate-bounce inline-block transition duration-300">
+        <app-links></app-links>
+      </div>
+    </figcaption>
+  </div>
+</figure>
