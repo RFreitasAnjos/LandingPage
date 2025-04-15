@@ -7,7 +7,7 @@ import { AboutComponent } from "../about/about.component";
 
 @Component({
   selector: 'app-container',
-  imports: [NgOptimizedImage, CarouselComponent, CardComponent, AboutComponent],
+  imports: [ CarouselComponent, CardComponent, AboutComponent],
   templateUrl: './container.component.html',
   styleUrl: './container.component.css'
 })
